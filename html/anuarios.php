@@ -40,12 +40,12 @@
       </div>
 
       <!--imagenes-->
-      <div class="images">
-        <img src="../img/usuario.jpg" alt="">
-        <img src="../img/usuario.jpg" alt="">
-        <img src="../img/usuario.jpg" alt="">
-        <img src="../img/usuario.jpg" alt="">
-        <img src="../img/usuario.jpg" alt="">
+      <div class="images text-center">
+        <img class="mt-1" src="../img/usuario.jpg" alt="">
+        <img class="mt-1" src="../img/usuario.jpg" alt="">
+        <img class="mt-1" src="../img/usuario.jpg" alt="">
+        <img class="mt-1" src="../img/usuario.jpg" alt="">
+        <img class="mt-1" src="../img/usuario.jpg" alt="">
         <img class="mt-1" src="../img/usuario.jpg" alt="">
         <img class="mt-1" src="../img/usuario.jpg" alt="">
         <img class="mt-1" src="../img/usuario.jpg" alt="">

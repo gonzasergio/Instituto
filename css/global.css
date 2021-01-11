@@ -150,6 +150,7 @@ body {
     background-color: rgb(238, 193, 144);
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .footer div div ul li {

@@ -178,17 +178,16 @@
       <div class="row">
 
         <!--cards-->
-        <div class="col-9">
+        <div class="col-6 col-sm-8 col-md-9">
 
-          <!--primera fila-->
           <div class="row">
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
-                <i class="fas fa-calculator fa-3x"></i>
+                <i class="w-100 fas fa-calculator fa-3x"></i>
 
                 <!--card body-->
                 <div class="card-body">
@@ -200,7 +199,7 @@
             </div>
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
@@ -216,7 +215,7 @@
             </div>
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
@@ -232,7 +231,7 @@
             </div>
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4 mt-xl-0">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
@@ -247,61 +246,8 @@
               </div>
             </div>
 
-          </div>
-
-          <!--segunda fila-->
-          <div class="row mt-4">
-
             <!--card-->
-            <div class="col">
-              <div class="card department-card bg-light text-center pt-4">
-
-                <!--card icon-->
-                <i class="fas fa-calculator fa-3x"></i>
-
-                <!--card body-->
-                <div class="card-body">
-                  <h5 class="card-title">Matematicas</h5>
-                  <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
-                </div>
-
-              </div>
-            </div>
-
-            <!--card-->
-            <div class="col">
-              <div class="card department-card bg-light text-center pt-4">
-
-                <!--card icon-->
-                <i class="fas fa-paint-brush fa-3x"></i>
-
-                <!--card body-->
-                <div class="card-body">
-                  <h5 class="card-title">Plastica</h5>
-                  <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
-                </div>
-
-              </div>
-            </div>
-
-            <!--card-->
-            <div class="col">
-              <div class="card department-card bg-light text-center pt-4">
-
-                <!--card icon-->
-                <i class="fas fa-laptop fa-3x"></i>
-
-                <!--card body-->
-                <div class="card-body">
-                  <h5 class="card-title">Informática</h5>
-                  <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
-                </div>
-
-              </div>
-            </div>
-
-            <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
@@ -316,21 +262,16 @@
               </div>
             </div>
 
-          </div>
-
-          <!--tercera fila-->
-          <div class="row mt-4">
-
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
-                <i class="fas fa-calculator fa-3x"></i>
+                <i class="fas fa-theater-masks fa-3x"></i>
 
                 <!--card body-->
                 <div class="card-body">
-                  <h5 class="card-title">Matematicas</h5>
+                  <h5 class="card-title">Teatro</h5>
                   <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
                 </div>
 
@@ -338,15 +279,15 @@
             </div>
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
-                <i class="fas fa-paint-brush fa-3x"></i>
+                <i class="fas fa-theater-masks fa-3x"></i>
 
                 <!--card body-->
                 <div class="card-body">
-                  <h5 class="card-title">Plastica</h5>
+                  <h5 class="card-title">Teatro</h5>
                   <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
                 </div>
 
@@ -354,15 +295,15 @@
             </div>
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
-                <i class="fas fa-laptop fa-3x"></i>
+                <i class="fas fa-theater-masks fa-3x"></i>
 
                 <!--card body-->
                 <div class="card-body">
-                  <h5 class="card-title">Informática</h5>
+                  <h5 class="card-title">Teatro</h5>
                   <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
                 </div>
 
@@ -370,7 +311,55 @@
             </div>
 
             <!--card-->
-            <div class="col">
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
+              <div class="card department-card bg-light text-center pt-4">
+
+                <!--card icon-->
+                <i class="fas fa-theater-masks fa-3x"></i>
+
+                <!--card body-->
+                <div class="card-body">
+                  <h5 class="card-title">Teatro</h5>
+                  <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
+                </div>
+
+              </div>
+            </div>
+
+            <!--card-->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
+              <div class="card department-card bg-light text-center pt-4">
+
+                <!--card icon-->
+                <i class="fas fa-theater-masks fa-3x"></i>
+
+                <!--card body-->
+                <div class="card-body">
+                  <h5 class="card-title">Teatro</h5>
+                  <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
+                </div>
+
+              </div>
+            </div>
+
+            <!--card-->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
+              <div class="card department-card bg-light text-center pt-4">
+
+                <!--card icon-->
+                <i class="fas fa-theater-masks fa-3x"></i>
+
+                <!--card body-->
+                <div class="card-body">
+                  <h5 class="card-title">Teatro</h5>
+                  <a href="#" class="btn bg-ocre w-75" data-toggle="modal" data-target="#exampleModalCenter">Ver más</a>
+                </div>
+
+              </div>
+            </div>
+
+            <!--card-->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-4">
               <div class="card department-card bg-light text-center pt-4">
 
                 <!--card icon-->
@@ -390,7 +379,7 @@
         </div>
 
         <!--menu-->
-        <div class="col-3">
+        <div class="col-6 col-sm-4 col-md-3">
           <ul class="list-unstyled p-3 rounded border-light shadow-sm" style="border: 7px solid">
             <h6>Departamentos</h6>
             <li class="small"><i class="fa fa-angle-right"></i><a class="hover" href="#">&nbsp;Matematicas</a></li>
