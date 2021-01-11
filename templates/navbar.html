@@ -1,0 +1,133 @@
+<script>
+    $('document').ready(function(){
+        var loc = window.location.pathname;
+        var doc = loc.split(/(\\|\/)/g).pop();
+        switch (doc) {
+            case "home.php":
+                $("li#home").addClass("active border border-dark rounded");
+                break;
+            /*case "historia.php":
+                $("li#centro").addClass("active border border-dark rounded");
+                $("a#historia").addClass("font-weight-bold");
+                break;*/
+            case "profesores.php":
+                $("li#centro").addClass("active border border-dark rounded");
+                $("a#profesores").addClass("font-weight-bold");
+                break;
+            case "departamentos.php":
+                $("li#centro").addClass("active border border-dark rounded");
+                $("a#departamentos").addClass("font-weight-bold");
+                break;
+            /*case "instalaciones.php":
+                $("li#centro").addClass("active border border-dark rounded");
+                $("a#instalaciones").addClass("font-weight-bold");
+                break;*/
+            case "eso.php":
+                $("li#ofertaEducativa").addClass("active border border-dark rounded");
+                $("a#eso").addClass("font-weight-bold");
+                break;
+            case "bachiller.php":
+                $("li#ofertaEducativa").addClass("active border border-dark rounded");
+                $("a#bachiller").addClass("font-weight-bold");
+                break;
+            case "fpb.php":
+                $("li#ofertaEducativa").addClass("active border border-dark rounded");
+                $("a#fpb").addClass("font-weight-bold");
+                break;
+            case "fpgm.php":
+                $("li#ofertaEducativa").addClass("active border border-dark rounded");
+                $("a#fpgm").addClass("font-weight-bold");
+                break;
+            case "fpgs.php":
+                $("li#ofertaEducativa").addClass("active border border-dark rounded");
+                $("a#fpgs").addClass("font-weight-bold");
+                break;
+            case "matricula.php":
+                $("li#tramites").addClass("active border border-dark rounded");
+                $("a#matricula").addClass("font-weight-bold");
+                break;
+            case "anuarios.php":
+                $("li#anuarios").addClass("active border border-dark rounded");
+                break;
+            case "contacto.php":
+                $("li#contacto").addClass("active border border-dark rounded");
+                break;
+        }
+    });
+</script>
+
+<!--Header-->
+<div class="bg-marfil">
+  <div class="container">
+    <a href="home.php"><img src="../img/logo2.jpg" alt height="100" alt=""></a>
+  </div>
+</div>
+
+<!--Menu-->
+<div class="bg-ocre">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand d-md-none">MENU</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+          <!--Home-->
+          <li id="home" class="nav-item">
+            <a class="nav-link" href="home.php" id="home"><i class="fas fa-home pt-1"></i></a>
+          </li>
+
+          <!--Centro-->
+          <li id="centro" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="centro" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Centro
+            </a>
+            <div class="dropdown-menu menu" aria-labelledby="centro">
+              <!--<a id="historia" class="dropdown-item" href="historia.php">Historia</a>-->
+              <a id="profesores" class="dropdown-item" href="profesores.php">Profesores</a>
+              <a id="departamentos" class="dropdown-item" href="departamentos.php">Departamentos</a>
+              <!--<a id="instalaciones" class="dropdown-item" href="instalaciones.php">Instalaciones</a>-->
+            </div>
+          </li>
+
+          <!--Oferta Educativa-->
+          <li id="ofertaEducativa" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="ofertaEducativa" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Oferta Educativa
+            </a>
+            <div class="dropdown-menu menu" aria-labelledby="ofertaEducativa">
+              <a id="eso" class="dropdown-item" href="eso.php">ESO</a>
+              <a id="bachiller" class="dropdown-item" href="bachiller.php">Bachiller</a>
+              <a id="fpb" class="dropdown-item" href="fpb.php">FPB</a>
+              <a id="fpgm" class="dropdown-item" href="fpgm.php">FPGM</a>
+              <a id="fpgs" class="dropdown-item" href="fpgs.php">FPGS</a>
+            </div>
+          </li>
+
+          <!--Tramites-->
+          <li id="tramites" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="tramites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tramites
+            </a>
+            <div class="dropdown-menu menu" aria-labelledby="tramites">
+              <a id="matricula" class="dropdown-item" href="matricula.php">Matricula</a>
+            </div>
+          </li>
+
+          <!--Anuarios-->
+          <li id="anuarios" class="nav-item">
+              <a class="nav-link" href="anuarios.php">Anuarios</a>
+          </li>
+
+          <!--Contacto-->
+          <li id="contacto" class="nav-item">
+            <a class="nav-link" href="contacto.php">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

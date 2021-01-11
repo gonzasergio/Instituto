@@ -1,0 +1,175 @@
+/*modo oscuro para diseñar*/
+/*body {
+    background-color:black!important;
+    height: 100%;
+}*/
+
+/*colores*/
+
+.bg-marfil {
+    background-color: rgb(240, 212, 181);
+}
+
+.bg-ocre {
+    background-color: rgb(238, 193, 144)!important;
+}
+
+/*header y menu*/
+
+ul.navbar-nav li a {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    border: 0px!important;
+}
+
+@media (min-width: 768px) {
+    ul.navbar-nav li {
+        margin: 0px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    ul.navbar-nav li {
+        border: 0px!important;
+    }
+
+    .dropdown-menu {
+        padding: 0px!important;
+    }
+}
+
+@media (min-width: 992px) {
+    ul.navbar-nav li {
+        margin: 0px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    ul.navbar-nav li div.dropdown-menu {
+        margin-bottom: 10px;
+    }
+
+    ul.navbar-nav li {
+        padding: 0px 10px;
+    }
+}
+
+ul.navbar-nav li:nth-child(1) {
+    margin-left: 0px;
+}
+
+/*barra*/
+
+.barra {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(238, 193, 144);
+}
+
+/*texto video home*/
+
+.text-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*main*/
+main {
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+
+/*card departamentos*/
+
+.department-card {
+    border: 0px;
+}
+
+/*enlaces departamentos*/
+
+.hover {
+    color: rgb(0, 0, 0)!important;
+    text-decoration: none!important;
+}
+
+.hover:hover {
+    color:rgb(238, 193, 144)!important;
+}
+
+/*anuarios*/
+/*.image-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+html::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}*/
+
+.image-container{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+
+.images img:hover {
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+/*footer*/
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 163px;
+}
+
+.footer {
+    background-color: rgb(238, 193, 144);
+    position: absolute;
+    bottom: 0;
+}
+
+.footer div div ul li {
+    font-size: 15px;
+}
+
+@media (max-width: 767px){
+    body {
+        margin-bottom: 244px;
+    }
+}
+
+@media (max-width: 618px){
+    body {
+        margin-bottom: 263px;
+    }
+}
+
+@media (max-width: 575px){
+    body {
+        margin-bottom: 396px;
+    }
+}
