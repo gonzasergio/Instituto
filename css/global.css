@@ -136,6 +136,10 @@ html::before{
     transform: scale(1.5);
 }
 
+.images img {
+    width: 190px;
+}
+
 /*footer*/
 
 html {
